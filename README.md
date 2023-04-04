@@ -1,13 +1,14 @@
 # reference-website
 
-1. Naming convention for all filenames, paths and folders
-   example:
+1. Naming convention for all filenames, paths and folders example:
 
 Naming conventions for all filenames should be lowercase with no spaces dashes instead. The folder naming convention should be similar. For paths, folders, assets, and files should be inside the root folders so they can be easily linked inside any html files.
 
 2. Best practices for commit messages
 
 3. What is HTML?
+
+Html is the hypertext markup language, used to 
 
 4. Proper syntax for HTML tags
 
