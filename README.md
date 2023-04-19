@@ -144,11 +144,22 @@ Flexbox prperty controls how elements sit on a page, and is used for a one-dimen
 
 15. What are different types of flexbox properties and what is the major difference between them?
 
-The flex-box properties are flex-direction (changes row to column), wrap (lets items more to other lines) and no-wrap (forces items onto one line). They change how items appear in a flex-box, but flex-direction changes the direction and orientation, while wrap & no-wrap change the wrapping style.
+The flex-box properties are flex-direction (changes row to column), wrap (lets items more to other lines) and nowrap (forces items onto one line). They change how items appear in a flex-box, but flex-direction changes the direction and orientation, while wrap & nowrap change the wrapping style. The display property is also important and changes the flex-boc to flex (similar to block) or inline-flex.
 
 16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
 
-
+An example of a flex-box property being used on a div element. Aplying this will affect its children elements as flex-items. The sub-prperties below, flex-direction and flex-wrap, are commonly used.
+   div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      }
 
 17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
 
+   nav {
+      display: flex;
+      flex-warp: nowrap;
+      flex-direction: row;
+      justify-content: center;
+   }
