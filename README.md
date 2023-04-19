@@ -19,33 +19,33 @@ HTML uses angle brackets to indicate marked-up text. To start an element, an ope
 5. Explain or demonstrate commonly used html tags/elements:
 
 headings: h1-h6
-   <h1></h1> through <h6><h6> are used as elements that indicate the text headings (basically mini titles). By default, they make their element content bigger. h1 is the largest and can only be used once in the document, and h2 thru h6 become progressively smaller and can be used multiple times.
+   h1 through h6 are used as elements that indicate the text headings (basically mini titles). By default, they make their element content bigger. h1 is the largest and can only be used once in the document, and h2 thru h6 become progressively smaller and can be used multiple times.
 
 p
-   <p></p> is the tag used to define a paragraph. It is block-level element (as opposed to inline) and always begins a new line with automatically applied margins.
+   p is the tag used to define a paragraph. It is block-level element (as opposed to inline) and always begins a new line with automatically applied margins.
 
 lists: ul, ol, dl
-   <ul></ul> is the tag for unordered lists (bullets), <ol></ol> is the tag for ordered lists (numbered), and <dl></dl> is the tag for decription lists. Inside ul and ol tags is <li></li> (list item), and inside the dl tag is <dt></dt> (term/name) and <dd></dd> (description of term). Description lists can only contain one <dt>, but multiple <dd>.
+   ul is the tag for unordered lists (bullets), ol is the tag for ordered lists (numbered), and dl is the tag for decription lists. Inside ul and ol tags is li (list item), and inside the dl tag is dt (term/name) and dd (description of term). Description lists can only contain one dt, but multiple dd.
 
 a
-   The <a></a> tags are used to indicate a link, and apply the link style to the element content. Most often used with the attribute href="", written in the opening tag as <a href="">. Inside the quotation marks, is the link adress; this is where clicking on the link will take you.
+   The a tags are used to indicate a link, and apply the link style to the element content. Most often used with the attribute href="", written in the opening tag as <a href="">. Inside the quotation marks, is the link adress; this is where clicking on the link will take you.
 
 img
    To add an image to a webpage, <img src="" alt=""> is used. This element has no closing tag. In the quotations after the attribute scr, is the link to the image location; in those after alt, is the alternative content (text) that will be used for screenreaders or if the image fails to display.
 
 figure (img & figcaption)
-   The <figure></figure> element can be used to turn an image or other type of content into a self-contained figure. A caption can be used by inserting the <figcaption></figcaption> elememt as a child of (inside of) this element.
+   The figure element can be used to turn an image or other type of content into a self-contained figure. A caption can be used by inserting the figcaption elememt as a child of (inside of) this element.
 
 q
-   <q></q> is used to mark a quote imbedded in another element, for example:
+   q is used to mark a quote imbedded in another element, for example:
 
    <p>Paragraph<q>famous quote</q>more paragraph</p>
 
 blockquote
-   The <blockquote></blockquote> element is used to mark a stand alone quote, not imbedded in another element.
+   The blockquote element is used to mark a stand alone quote, not imbedded in another element.
 
 cite
-   The element <cite></cite>, can be used to mark up the source of the quote. For example, the title of the book or person who said it. The atrribute of the same name is for citing a source link, and can be applied to <q> and <blockquote> as <q cite=""> and <blockquote cite="">.
+   The element cite, can be used to mark up the source of the quote. For example, the title of the book or person who said it. The atrribute of the same name is for citing a source link, and can be applied to <q> and <blockquote> as <q cite=""> and <blockquote cite="">.
 
 em
    This element adds emphasis.
