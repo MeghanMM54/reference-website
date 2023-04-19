@@ -28,10 +28,10 @@ lists: ul, ol, dl
    ul is the tag for unordered lists (bullets), ol is the tag for ordered lists (numbered), and dl is the tag for decription lists. Inside ul and ol tags is li (list item), and inside the dl tag is dt (term/name) and dd (description of term). Description lists can only contain one dt, but multiple dd.
 
 a
-   The a tags are used to indicate a link, and apply the link style to the element content. Most often used with the attribute href="", written in the opening tag as <a href="">. Inside the quotation marks, is the link adress; this is where clicking on the link will take you.
+   The a tags are used to indicate a link, and apply the link style to the element content. Most often used with the attribute href="", written in the opening tag as a href="". Inside the quotation marks, is the link adress; this is where clicking on the link will take you.
 
 img
-   To add an image to a webpage, <img src="" alt=""> is used. This element has no closing tag. In the quotations after the attribute scr, is the link to the image location; in those after alt, is the alternative content (text) that will be used for screenreaders or if the image fails to display.
+   To add an image to a webpage, img src="" alt="" is used. This element has no closing tag. In the quotations after the attribute scr, is the link to the image location; in those after alt, is the alternative content (text) that will be used for screenreaders or if the image fails to display.
 
 figure (img & figcaption)
    The figure element can be used to turn an image or other type of content into a self-contained figure. A caption can be used by inserting the figcaption elememt as a child of (inside of) this element.
@@ -39,13 +39,13 @@ figure (img & figcaption)
 q
    q is used to mark a quote imbedded in another element, for example:
 
-   <p>Paragraph<q>famous quote</q>more paragraph</p>
+   "<p>Paragraph<q>famous quote</q>more paragraph</p>"
 
 blockquote
    The blockquote element is used to mark a stand alone quote, not imbedded in another element.
 
 cite
-   The element cite, can be used to mark up the source of the quote. For example, the title of the book or person who said it. The atrribute of the same name is for citing a source link, and can be applied to <q> and <blockquote> as <q cite=""> and <blockquote cite="">.
+   The element cite, can be used to mark up the source of the quote. For example, the title of the book or person who said it. The atrribute of the same name is for citing a source link, and can be applied to q and blockquote as q cite="" and blockquote cite="".
 
 em
    This element adds emphasis.
@@ -54,10 +54,10 @@ strong
    This element adds a heavy emphasis, indicates the content's importance or urgency.
 
 b
-   The <b></b> element indicates a keyword.
+   The b element indicates a keyword.
 
 i
-   <i></i> is used to format a title, technical term, or another language. 
+   i is used to format a title, technical term, or another language. 
 
 small
    This element makes text smaller than the default size.
@@ -90,7 +90,7 @@ article
    An article is a self contained composition on a page, and is meant to be distributed independently or reuseable. It could be a social media post, interactive widget, product card, etc.
 
 div
-   <div></div> is a generic block element that groups elements together.
+   div is a generic block element that groups elements together.
 
 aside
    Often diplayed as a sidebar on websites, the aside element is used to display unrealated or indirectely related content to the main content, such as advertisements.
@@ -99,7 +99,7 @@ footer
    The footer, found inside the body, is used to end a webpage. It is often reused on many pages of a website, and may conatin links, copyright info, terms or service, and company information.
 
 span
-   <span></span> is generic inline element used often to markup a part of text without seperating it.
+   span is generic inline element used often to markup a part of text without seperating it.
 
 small
    The small tag is an inline markup element, which slightly shrinks content. It is often used te denote copyright.
@@ -111,7 +111,7 @@ Accessibility helps to make websites more usable for people with disabilities, a
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
 
 CSS is a way to format HTML code, and can be implemented by adding this line into the head of the HTML document, usually before the title.
-<link rel="stylesheet" href="style.css">
+"<link rel="stylesheet" href="style.css">"
 
 9. What is the difference between CSS ruleset, property and value (write explanation and an example code)
 
