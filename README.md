@@ -14,7 +14,7 @@ HTML is short for "hypertext markup language", and is a collection of tags used 
 
 4. Proper syntax for HTML tags
 
-HTML uses angle brackets to indicate marked-up text. To start an element, an open tag is used, written as the tag name surrounded by two angle brackets, such as: <p>. The close tag is similar, but has a forward slash before the tag name, such as </p>. The open and close tag as well as any text between them (called the element content), is colectively called an element.
+HTML uses angle brackets to indicate marked-up text. To start an element, an open tag is used, written as the tag name surrounded by two angle brackets, such as: p. The close tag is similar, but has a forward slash before the tag name, such as /p. The open and close tag as well as any text between them (called the element content), is colectively called an element.
 
 5. Explain or demonstrate commonly used html tags/elements:
 
